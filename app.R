@@ -111,6 +111,9 @@ print("The Surgical Risk Preoperative Assessment System (SURPAS) is a risk
 
 
 ### ### ### ### ### ### ### ### ### ### ### ###
+### some code below adapted from Dean Attali's article 
+### "Mimicking a Google Form with a Shiny app"
+### ### ### ### ### ### ### ### ### ### ### ###
 ### Server part of the app ###
 server <- function(input, output,session) {
   
